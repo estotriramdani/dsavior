@@ -1,0 +1,152 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #6c757d;
+
+}
+
+
+.bg-light {
+  transition: 0.3s;
+}
+
+.fixed-top{
+  transition: .3s;
+}
+
+/* header */
+#header{
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  /* background-image: linear-gradient(to bottom, rgba(206, 212, 218,0.6), rgba(0,0,0,0) ); */
+  background-image: url('../img/wave.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.title {
+  position: relative;
+  top: 30vh;
+  text-align: center;
+  /* text-shadow: 3px -2px 17px rgba(152, 150, 150, 1); */
+  color: #6c757d;
+}
+
+.title h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.title p {
+  text-transform: uppercase;
+}
+
+.img-top {
+  position: relative;
+}
+
+.img-top img {
+  background-color: aqua;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.btn-scroll {
+  padding: 10px 30px;
+  background-color: #adb5bd;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 35%;
+  text-align: center;
+}
+
+.btn-scroll:hover {
+  background-color: #6c757d;
+}
+
+#header a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* product */
+
+#product {
+  padding-top: 30px;
+  background-color: #ced4da99;
+  color: #6c757d;
+}
+
+#product .img-product img {
+  width: 100%;
+}
+
+#product h1 {
+  margin-top: 30px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+
+/* contact */
+.contact {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contact h1 {
+  font-size: 32px;
+}
+
+.contact a {
+  font-size: 42px;
+  color: #6c757d;
+  margin-right: 10px;
+}
+
+.contact a:hover {
+color: #adb5bd;
+}
+
+
+/* footer */
+footer {
+  background-color:  #ced4da;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #6c757d;
+}
+
+footer a:hover{
+  color: #adb5bd;
+}
+
+
+
+/* desktop  design */
+
+@media (min-width: 992px) { 
+  #header{
+    background-size: 100vw;
+  }
+  .title h1 {
+    font-size: 92px;
+  }
+  
+  .btn-scroll {
+    left: 46%;
+  }
+
+  #product h1 {
+    font-size: 42px;
+    margin-top: 5px;
+  }
+
+
+}
